@@ -8,7 +8,7 @@ libmongoc = library_dependency(
     )
 
 provides(Sources, {
-    URI("http://github.com/mongodb/mongo-c-driver/releases/download/1.0.0/mongo-c-driver-1.0.0.tar.gz") => libmongoc
+    URI("https://github.com/mongodb/mongo-c-driver/releases/download/1.3.5/mongo-c-driver-1.3.5.tar.gz") => libmongoc
     })
 
 provides(
